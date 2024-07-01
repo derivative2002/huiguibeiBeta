@@ -62,7 +62,7 @@ export default class GuantuUI extends cc.Component{
             var factorItem = factorNode.getComponent(GuantuFactorItem);
             factorItem.setData(factor);
 
-            factorNode.x = i * 290;
+            factorNode.x = i * 253;
             factorNode.y = 0;
             this.factorContainer.addChild(factorNode);
 

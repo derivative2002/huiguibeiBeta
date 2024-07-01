@@ -40,7 +40,7 @@ export default class ConfigData {
                 info.author = strs2[8]; // 存储关卡作者
             }
             // 根据关卡ID决定存储到哪个列表
-            if (info.id < 200) {
+            if (info.id < 158) {
                 this.guantuList.push(info);
             }
             this.guantuTiaozhanList.push(info);
