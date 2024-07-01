@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'HuiguibeiBeta' target in the 'HuiguibeiBeta' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
